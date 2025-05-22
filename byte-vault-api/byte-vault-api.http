@@ -1,0 +1,6 @@
+@byte_vault_api_HostAddress = http://localhost:5243
+
+GET {{byte_vault_api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
