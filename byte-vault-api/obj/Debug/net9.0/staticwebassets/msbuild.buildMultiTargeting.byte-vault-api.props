@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\byte-vault-api.props" />
+</Project>

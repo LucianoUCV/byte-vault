@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("byte-vault-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1db21ac1b546799370c89d9ab762bd75431f3ef9")]
 [assembly: System.Reflection.AssemblyProductAttribute("byte-vault-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("byte-vault-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

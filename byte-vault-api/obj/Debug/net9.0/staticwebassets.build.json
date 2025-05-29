@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "gy8eriqAIKPHA2EjWlRZBxVEExXiYOa0qmaWd4GLLcY=",
+  "Source": "byte-vault-api",
+  "BasePath": "_content/byte-vault-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "byte-vault-api\\wwwroot",
+      "Source": "byte-vault-api",
+      "ContentRoot": "C:\\Users\\lucia\\Projects\\personal\\byte-vault\\byte-vault-api\\wwwroot\\",
+      "BasePath": "_content/byte-vault-api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
