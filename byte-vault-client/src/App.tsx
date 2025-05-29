@@ -1,25 +1,28 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import { MainLayout } from "./components";
+import { HomeSection, PricingSection, AboutSection, SecuritySection, ContactSection } from "./pages";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "./theme";
+import { Route, Routes } from "react-router-dom";
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <p>Cloud Storage Application</p>
-      </div>
-      <h1>ByteVault</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          You clicked {count} times!
-        </button>
-      </div>
-      <p className="read-the-docs">
-        Work in progress...
-      </p>
-    </>
-  )
+    <ThemeProvider theme={theme}>
+      <MainLayout>
+        <Routes>
+          <Route path="/" element={<HomeSection />} />
+          <Route path="/pricing" element={<PricingSection />} />
+          <Route path="/about" element={<AboutSection />} />
+          <Route path="/security" element={<SecuritySection />} />
+          <Route path="/contact" element={<ContactSection />} />
+          {/* <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} /> */}
+        </Routes>
+      </MainLayout>
+    </ThemeProvider>
+  );
 }
-
-export default App
+export default App;
